@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.js";
 import "./App.css";
 import Footer from "./Components/Footer/index";
 import Header from "./Components/Header/index"
+import Landing from "./Components/Landing";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <div>
-        <h1>Hola mundo</h1>
+        <Landing/>
       </div>
       <Footer />
     </div>
